@@ -10,12 +10,12 @@ O diagrama tem 63 tipos (classes, interfaces e enumerações) e 91 relações, o
 
 O código em `src/main/java/com/delivery` reproduz o diagrama classe por classe, com todos os atributos e assinaturas de método. Os corpos dos métodos estão vazios de propósito: o objetivo é mostrar a estrutura do sistema, não uma implementação executável.
 
-- `dominio` — entidades e enumerações
-- `dto` — objetos de transporte devolvidos pelos controladores
-- `servico` — invenções puras: catálogo, pagamento, estoque, entrega e relatório
-- `controlador` — um controlador por caso de uso
-- `repositorio` — repositórios que realizam as interfaces de leitura e escrita
-- `infra` — gateways de pagamento, geolocalização e criptografia de senha
+- `dominio` — entidades e enumerações.
+- `dto` — objetos de transporte devolvidos pelos controladores.
+- `servico` — invenções puras: catálogo, pagamento, estoque, entrega e relatório.
+- `controlador` — um controlador por caso de uso.
+- `repositorio` — repositórios que realizam as interfaces de leitura e escrita.
+- `infra` — gateways de pagamento, geolocalização e criptografia de senha.
 
 ## Arquivos
 
