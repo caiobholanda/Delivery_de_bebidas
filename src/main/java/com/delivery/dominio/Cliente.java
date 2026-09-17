@@ -35,6 +35,9 @@ public class Cliente extends Usuario {
     public Endereco enderecoPrincipal() {
         throw new UnsupportedOperationException();
     }
+    public Endereco enderecoPor(int idEndereco) {
+        throw new UnsupportedOperationException();
+    }
     public void favoritar(Bebida bebida) {
     }
     public void desfavoritar(Bebida bebida) {
