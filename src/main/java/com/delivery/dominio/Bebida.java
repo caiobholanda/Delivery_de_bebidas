@@ -134,4 +134,15 @@ public class Bebida {
     }
     public void desativar() {
     }
+    public boolean temEstoque(int quantidade) {
+        throw new UnsupportedOperationException();
+    }
+    public boolean baixarEstoque(int quantidade) {
+        throw new UnsupportedOperationException();
+    }
+    public void reporEstoque(int quantidade) {
+    }
+    public boolean estoqueBaixo() {
+        throw new UnsupportedOperationException();
+    }
 }
